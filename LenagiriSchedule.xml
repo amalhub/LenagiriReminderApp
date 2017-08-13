@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-Sample data format
-	<task date="dd-mm">
-		<reminder type="b,l,d"> // donation type - breakfast, lunch, dinner
+========== Data format =============
+	<task date="dd-mm"> // For each day define a task
+		<reminder type="b,l,d"> // Donation type - breakfast, lunch, dinner
 			<name>Name of the donator</name>
-			<numbers>phone number</numbers> // comma seperated if there are any secondary numbers
-			<emails>email address</emails> // comma seperate if there are any secondary numbers
+			<numbers>phone number</numbers> // Comma seperated if there are any secondary numbers
+			<emails>email address</emails> // Comma seperate if there are any secondary numbers
 		</reminder>
 		<reminder>
-			.... if there are separate people subscriptions for meals
+			.... If there are different people subscirbed for each meals for the day.
 		</reminder>
 	</task>
 -->
