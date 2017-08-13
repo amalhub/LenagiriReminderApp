@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Sample data format
+	<task date="dd-mm">
+		<reminder type="b,l,d"> // donation type - breakfast, lunch, dinner
+			<name>Name of the donator</name>
+			<numbers>phone number</numbers> // comma seperated if there are any secondary numbers
+			<emails>email address</emails> // comma seperate if there are any secondary numbers
+		</reminder>
+		<reminder>
+			.... if there are separate people subscriptions for meals
+		</reminder>
+	</task>
+-->
+<schedule>
+	<task date="25-02">
+		<reminder type="b,l,d">
+			<name>Shehan Gunatilake</name>
+			<numbers>077</numbers>
+			<emails>@gmail.com</emails>
+		</reminder>
+	</task>
+	<task date="13-03">
+		<reminder type="b,l,d">
+			<name>Amal Gunatilake</name>
+			<numbers>077</numbers>
+			<emails>@gmail.com</emails>
+		</reminder>
+	</task>
+	<task date="21-03">
+		<reminder type="b,l,d">
+			<name>Tamara Gunatilake</name>
+			<numbers>077</numbers>
+			<emails>@gmail.com</emails>
+		</reminder>
+	</task>
+	<task date="13-05">
+		<reminder type="b,l,d">
+			<name>Chandralal</name>
+			<numbers>072</numbers>
+			<emails>@gmail.com</emails>
+		</reminder>
+	</task>
+	<task date="10-08">
+		<reminder type="b,l,d">
+			<name>Dhammika Gunatilake</name>
+			<numbers>077</numbers>
+			<emails>@gmail.com</emails>
+		</reminder>
+	</task>
+	<task date="07-09">
+		<reminder type="b,l,d">
+			<name>Dhammika Gunatilake</name>
+			<numbers>077</numbers>
+			<emails>@gmail.com</emails>
+		</reminder>
+	</task>
+	<task date="22-09">
+		<reminder type="b,l,d">
+			<name>Dhammika Gunatilake</name>
+			<numbers>077</numbers>
+			<emails>@gmail.com</emails>
+		</reminder>
+	</task>
+	<task date="27-11">
+		<reminder type="b,l,d">
+			<name>Dhammika Gunatilake</name>
+			<numbers>077</numbers>
+			<emails>@gmail.com</emails>
+		</reminder>
+	</task>
+	<task date="01-12">
+		<reminder type="b,l,d">
+			<name>Dhammika Gunatilake</name>
+			<numbers>077</numbers>
+			<emails>@gmail.com</emails>
+		</reminder>
+	</task>
+</schedule>
